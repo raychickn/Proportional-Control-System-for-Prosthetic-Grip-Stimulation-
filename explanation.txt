@@ -1,0 +1,15 @@
+**Potentiometer:**
+- Middle pin → Arduino A0  
+- Outer pins → 5V / GND  
+
+**Servo Motor:**
+- Signal → Digital pin 5  
+- Red → 5V  
+- Black/Brown → GND  
+
+**Important:** Connect servo GND to Arduino GND for proper operation.
+
+There weren't calculations involved (if there was it was minor). 
+
+In terms of challenges, at first although the code was working, the server motor was moving slow with a lot of noise.
+The wiring got tripped up and i connected Ground to Voltage but fixed it quickly. 
