@@ -1,0 +1,22 @@
+#include <Servo.h>
+
+Servo myservo;
+const int potPin = A0;
+const int servoPin = 5;
+int currentAngle = 90; // start at middle
+
+void setup() {
+  myservo.attach(servoPin);
+  Serial.begin(9600);
+}
+
+void loop() {
+  int potValue = analogRead(A0);
+  int targetAngle = map(potValue, 0, 1023, 0, 180);
+
+  if(currentAngle < targetAngle) currentAngle++;
+  else if(currentAngle > targetAngle) currentAngle--;
+
+  myservo.write(currentAngle);
+  delay(15);
+}
