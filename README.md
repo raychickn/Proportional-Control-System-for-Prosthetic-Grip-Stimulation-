@@ -4,7 +4,7 @@ Just using a potentiometer to mimic muscle signals, if i twist one way, server m
 # Arduino Prosthetic Grip Simulator
 
 ## Overview
-This project simulates a basic prosthetic hand control using an Arduino, a potentiometer, and a servo motor. Turning the potentiometer moves the servo proportionally, mimicking how a myoelectric prosthetic interprets muscle signals to control grip.
+This project simulates a basic prosthetic hand control using an Arduino, a potentiometer, and a servo motor. Turning the potentiometer moves the servo proportionally, mimicking how a myoelectric prosthetic interprets muscle signals to control grip (There are two sets of code, one is a rough version whereas other is more refined).
 
 ---
 
