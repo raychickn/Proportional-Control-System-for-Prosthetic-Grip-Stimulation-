@@ -31,5 +31,3 @@ Logic / How It Works
 
 5. **Actuate Servo**  
    - Servo moves to the target angle using `myservo.write(angle)`.  
-
-**Logic Diagram:**
