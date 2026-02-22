@@ -13,3 +13,6 @@ There weren't calculations involved (if there was it was minor).
 
 In terms of challenges, at first although the code was working, the server motor was moving slow with a lot of noise.
 The wiring got tripped up and i connected Ground to Voltage but fixed it quickly. 
+
+In future, I hope to get my hards on a EMG sensor so I can take this project to the next level, by actually using it on human muscles.
+Ill require a EMG sensor and a prosthetic hand, either by 3D printing and laser cutting or my own design.
