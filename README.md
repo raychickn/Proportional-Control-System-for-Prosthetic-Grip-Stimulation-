@@ -30,4 +30,18 @@ Logic / How It Works
    - Servo angles are clamped to avoid mechanical stress.  
 
 5. **Actuate Servo**  
-   - Servo moves to the target angle using `myservo.write(angle)`.  
+   - Servo moves to the target angle using `myservo.write(angle)`.
+  
+
+Motivation
+
+I created this project to explore the relationship between human input signals, embedded systems and robotic actuation. My long-term interest is in medical robotics, prosthetics and assistive technology, particularly systems that can translate biological signals into useful physical movement.
+
+Future Development
+Replace the potentiometer with an EMG sensor
+Process muscle activity as the control input
+Experiment with proportional grip strength or position
+Develop a mechanical hand/gripping mechanism
+Investigate filtering/noise reduction for biological signals
+
+For now, development is on pause while I get another 9V power supply and some more jumper wires. Once I've got the hardware, I'll continue building and testing the next stage of the project. 
